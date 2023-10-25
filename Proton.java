@@ -12,7 +12,7 @@ public class Proton
         
         do
        {
-            System.out.println("\n\n---------MAIN MENU--------\n");
+            System.out.println("\n---------MAIN MENU--------\n");
             System.out.println("1.Arithametic Section\n2.Mensuration Section\n3.Special Numbers\n4.Simple Maths\n5.Exit\n");
             System.out.println("Enter your Choice");
             choice = sc.nextInt();
