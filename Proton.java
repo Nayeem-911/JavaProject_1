@@ -13,7 +13,7 @@ public class Proton
         do
        {
             System.out.println("\n---------MAIN MENU--------\n");
-            System.out.println("1.Arithametic Section\n2.Mensuration Section\n3.Special Numbers\n4.Simple Maths\n5.Exit\n");
+            System.out.println("1.Arithametic Section\n2.Mensuration Section\n3.Special Numbers\n4.Simple Maths\n5.Searching and Sorting\n6.exit\n");
             System.out.println("Enter your Choice");
             choice = sc.nextInt();
             switch(choice)
@@ -30,7 +30,12 @@ public class Proton
                 case 4 : T_Fmath TF = new T_Fmath();
                          TF.fun_Fmath();
                          break;
+                case 5 : T_Searchsort TSS = new T_Searchsort();
+                         TSS.fun_searchsort();
+                         break;
+                case 6 : System.out.println("finished...\n");
+                         break;
             }
-        }while(choice!=5);
+        }while(choice!=6);
     }
 }
