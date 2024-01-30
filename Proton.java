@@ -8,7 +8,7 @@ public class Proton
         Scanner sc = new Scanner(System.in);
         int choice = 0;
         System.out.println("\t\t\tWELCOME TO MY PROJECT");
-        System.out.println("\t\t\t~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("\t\t\t~~~~~~~~~~~~~~~~~~~");
         
         do
        {
